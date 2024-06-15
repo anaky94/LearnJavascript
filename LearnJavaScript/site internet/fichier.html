@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- titre de la page -->
+    <title>Doc ANAKY </title>
+    <!-- icone honglet -->
+    <link rel="shortcut icon" href="/site internet/image/html5.webp">
+</head>
+<body>
+    <nav> 
+        <!-- ul = unordered list -->
+        <ul>
+            <li>Acceuil</li>
+            <li>Boutique</li>
+            <li>
+                 <a href="#formulaires">formulaires</a>
+            </li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Ceci est le titre principal</h1>
+
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero impedit, cupiditate rem dolores nihil, <strong> inventore accusamus </strong></p>
+
+    </header>
+   
+    <main>
+        <section>
+            <img src="/site internet/image/pexels-photo-6279108.webp" alt="image bakground" height="900" >
+            <div>
+                <h4>Tableau</h4>
+                <table border="4" cellpadding="10" cellspacing="4" style=" text-align: center;">
+                    <!-- thead est l'entête du tableau-->
+                    <thead>
+                        <tr>
+                            <th>col1</th>
+                            <th>col2</th>
+                            <th>col3</th>
+                            
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr><td>cel 1</td></tr>
+                        <tr><td>cel 2</td></tr>
+                    </tbody>
+
+
+                </table>
+            </div>
+            <div>
+                <h5>
+                    Titre
+                </h5>
+                <a href="ghttps://www.w3schools.com/" target="_blank">3 w3schools</a>
+            </div>
+
+            <div>
+                <h6> <i></i> Videos</h6>
+                <video src="/site internet/image/video.mp4" autoplay muted loop height="400"></video>
+
+            </div>
+        </section>
+        <section id="formulaires">
+            <h2>Les formulairess</h2>
+            <form action="">
+                <label for="name">Nom</label>
+                <input type="text" id="name" placeholder="entrez votre nom">
+
+                <label for="age">Entrez votre age</label>
+                <input type="number" id="age" value="18">
+
+                <label for="gender">Genre</label>
+                <select name="" id="gender">
+                    <option selected="select" value="homme">homme</option>
+                    <option selected="select" value="femme">femme</option>
+                    <option selected="select" value="Autre">Autre</option>
+                </select>
+                    <br />
+                    <div>
+                        <input type="radio" name="type" id="humain">
+                        <label for="humain">humain</label>
+                        
+                        <input type="radio" name="type"  id="dog">
+                        <label for="dog">dog</label>
+                        
+                        <input type="radio" name="type" id="cat">
+                        <label for="cat">chat</label>
+                    </div>
+                    <textarea name="" id="" placeholder="Votre message" cols="20" rows="5"></textarea>
+                    <br/>
+                    <input type="checkbox" name="" id="cgv">
+                    <label for="cgv"> Accepter les conditions générales </label>
+                    
+
+                
+            </form>
+            <input type="submit" value="valider">
+            <button> ceci est un bouton</button>
+        </section>
+    </main>
+
+    <footer>
+        <a href="mailto: anaky.44@gmail.com">contactez moi</a>
+        <a href="/site internet/notice.txt" download="notice">Télécharger la notice</a>
+    </footer>
+    
+</body>
+
+</html>
