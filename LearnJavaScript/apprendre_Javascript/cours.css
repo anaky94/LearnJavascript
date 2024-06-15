@@ -1,0 +1,17 @@
+*{
+ background: #eeedfc;
+
+
+}
+h1{
+    color: #101010;
+    text-transform: uppercase;
+    font-family: "Libre Baskerville", serif;
+    font-size: 2rem;
+    text-align: center;
+    text-shadow: 6px 6px 6px 6px;
+}
+p{
+    font-family: "Antic Didone", serif;
+   font-size: 3rem;
+}
