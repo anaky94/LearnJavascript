@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+:root{
+    --color1: #952000;
+    --color2:#3a1a01;
+    --color3: #f78600;
+    --color4:rgba(118, 51, 12, 0.504);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Ubuntu", serif;
+    background: url(./asset//image-0.jpg) center/cover no-repeat ;
+    height: 100vh; /* l'image fait 100% de la page weeb la phto prend tout l'ecran */
+    color: var(--color3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+    
+.card{
+    background-color: rgba(0, 0, 0, 0.46);
+    width: calc(100% - 50px);
+    padding: 20px 20px 5px;
+    box-shadow: -3px 4px 20px 2px #5d560e;
+    border-radius: 5px;
+    backdrop-filter: blur(20px);
+    
+
+}
+
+.card:before{
+    content:"\271E";
+    position: absolute;
+    top: 14px;
+    right: 20px;
+    font-size: 2.4rem;
+}
+
+h1{
+    margin-bottom: 24px;
+}
+.grid-container{ /* pour crere des colonne utiliser grid */
+    display: grid;
+    grid-template-columns: 20% 80%;
+    place-self: center;
+}
+.polygon-container{
+    filter: drop-shadow(-1px 6px 3px var(--color3)); /* modifier l'ombre */
+    display: grid;
+    
+    
+}
+.polygon{
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    
+    background: linear-gradient(90deg, #d53369 0%, #daae51 100%); /* site pour prendre les couleur gradient https://webgradients.com/ , https://cssgradient.io/swatches/*/
+   height: 100px; 
+   width: 100%; 
+  
+
+}
+.polygon:after{
+    content: "un texte";
+    position: absolute;
+    color: var(--color1);
+    background: var(--color2);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90px;
+    padding: 4px;
+    text-align: center;
+}
+
+p{
+    line-height: 26px;
+    margin: 20px;
+    --webkit-box-orient:vertical ;
+    --webkit-line-clamp: 4;
+    overflow: hidden;
+
+}
+
+              
+
+
