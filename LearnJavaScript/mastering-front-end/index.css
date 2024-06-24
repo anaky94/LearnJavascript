@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background: #626161;
+    min-height: 500%;
+    width: 90%;
+    
+}
+nav{
+    font-size: 2.1rem;
+    display: flex;
+    color: white;
+    padding: 50px;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+   
+}
+h2{
+    margin: 15px;
+    font-size: 2em;
+    font-weight: bold;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+     
+    
+
+}
+nav ul li{
+    margin: 0 25px;
+}
+
+
+img{
+    height: 500px;
+    margin-left: 500px;
+}

@@ -1,0 +1,20 @@
+nav{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 2rem;
+    box-sizing: border-box;
+    align-items: center;
+}
+h1{
+    font-weight: bold;
+}
+.nav-links ul{
+    list-style: none;
+    display: flex;
+    padding: 30px;
+    margin: 10px;
+    background: blue;
+
+}
