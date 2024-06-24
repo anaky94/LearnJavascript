@@ -117,7 +117,7 @@ label {
     
     cursor: pointer;
     border: 1px solid var(--color2)
-    
+    user-select: none;
 }
 
 .e-email{
@@ -129,7 +129,7 @@ label {
     padding: 10px;
     border-radius: 5px;
     outline: none;
-    border: none;
+    border: 3px solid transparent;
     transition:0.3s;
     text-align: center;
     font-size: 1.1rem;
@@ -138,9 +138,30 @@ label {
     width: 35%;
     max-width: 300px;
 }
+input [type="text"]:focus{
+    background: transparent;
+    border: 3px solid var(--color1);
+    border-radius: 15px;
 
-
-
+}
+input[type="text"]::placeholder{
+    color: var(--color1)
+}
+button{
+    cursor: pointer;
+    background: var(--color3);
+    border: none;
+    font-size: 1.3rem;
+    padding: 10px 20px;
+    border-radius: 150px;
+    display: block;
+    margin:  0 auto;
+    transition:0.4s;
+}
+button:hover{
+    letter-spacing: 3px;
+    
+}
 
 
 
