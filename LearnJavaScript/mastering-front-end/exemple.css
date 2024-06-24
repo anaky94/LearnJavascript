@@ -13,8 +13,19 @@ h1{
 .nav-links ul{
     list-style: none;
     display: flex;
-    padding: 30px;
-    margin: 10px;
-    background: blue;
+    
+   
 
+}
+.nav-links ul li{
+    margin: 0 20px;
+}
+
+@media screen and (max-width: 900px) {
+    .nav-links{
+        display: none;
+        background: blue;
+
+    } 
+    
 }
