@@ -1,25 +1,24 @@
 *{
     margin: 0;
     padding: 0;
+    /* border: solid 1px; */
     
 }
 body{
     background: #626161;
     min-height: 500%;
     width: 90%;
-    
+    height: 100vh;   
 }
 nav{
     font-size: 2.1rem;
     display: flex;
-    color: white;
-    padding: 50px;
+    color: white;    
     justify-content: space-between;
-    width: 100%;
     box-sizing: border-box;
     align-items: center;
-   
 }
+
 h2{
     margin: 15px;
     font-size: 2em;
@@ -28,16 +27,151 @@ h2{
 nav ul {
     list-style: none;
     display: flex;
-     
-    
-
 }
+
 nav ul li{
     margin: 0 25px;
 }
 
+#modem{
+    height: 500px;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;   
+}
+
+.header-left-container{
+    
+    display: grid;
+    margin: 50px;
+    padding: 20px;
+    text-align:justify ;
+}
+h1{ 
+    font-size: 3rem;
+}
+
+.infos{
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    
+}
+
+.investors{
+    width: 150px;
+    height: 150px;
+}
+
+.infos-left{
+    padding: 10px;
+    flex-direction: column;
+    display:flex ;
+}
+.infos-right{
+    display: flex;
+    margin: 25px;
+}
+
+.btn-container{
+
+
+}
+.img-container{
+    
+}
 
 img{
-    height: 500px;
-    margin-left: 500px;
+    
+    height:30px;
+    
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
