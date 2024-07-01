@@ -2,12 +2,14 @@
     margin: 0;
     padding: 0;
     /* border: solid 1px; */
-    
+    --color1: #fdfdfd;
+    --color1: #fdfdfd;
 }
+
 body{
     background: #626161;
     min-height: 500%;
-    width: 90%;
+    /* width: 90%;*/
     height: 100vh;   
 }
 nav{
@@ -21,7 +23,7 @@ nav{
 
 h2{
     margin: 15px;
-    font-size: 2em;
+    font-size: 1.1em;
     font-weight: bold;
 }
 nav ul {
@@ -30,11 +32,13 @@ nav ul {
 }
 
 nav ul li{
-    margin: 0 25px;
+    margin: 0 90px;
+    font-size: 1.2rem;
 }
 
 #modem{
-    height: 500px;
+    min-height: 500px;
+    height: 100px;
 }
 
 
@@ -58,40 +62,65 @@ h1{
 .infos{
     display: flex;
     justify-content: space-between;
-    background: black;
+    align-items: center;
+    background: rgba(34, 31, 25, 0.458);
     color: white;
-    border-radius: 10px;
-    
+    border-radius: 6px;
+    margin: 3px; 
+   
 }
 
+.btn-container{
+    display: flex;
+    flex-direction:column ; 
+    padding: 5px;
+    font-size: 1.5rem;
+  
+}
+
+button{
+    padding: 5px;
+    border-radius: 10px;
+    background: rgb(86, 86, 255);
+    margin: 3px;
+}
 .investors{
     width: 150px;
     height: 150px;
 }
 
 .infos-left{
+    display: flex;
     padding: 10px;
     flex-direction: column;
     display:flex ;
 }
 .infos-right{
     display: flex;
-    margin: 25px;
+    margin: 10px;
 }
 
-.btn-container{
-
-
+h3{
+    margin-right: 550px;
 }
+
 .img-container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:  50px;
+    position: absolute;
+    right: 60px;
+    height: 15px;
+    
+    
     
 }
 
 img{
-    
-    height:30px;
-    
-
+   height: 50px;
+   margin: 0 50px;
+   margin-top: 60px;
 }
 
 
