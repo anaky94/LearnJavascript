@@ -66,10 +66,39 @@ h1{
 }
 
 
+.infos{
+  background: rgb(10, 10, 10);
+  border-radius: 10px;
+  display: flex;
+  width: ;
+}
+.infos-left{
+  width: 33%;
+}
 
+.bnt-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
 
+button {
+  border :none;
+  background: #474dff;
+  color:white;
+  width:150px;
+  padding: 10px 0;
+  border-radius:  10px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: 5px;
+}
+.infos-rigth{
+  
+}
+.investors{
 
-
+}
 
 
 
