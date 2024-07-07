@@ -1,0 +1,42 @@
+
+
+/* ******meilleur façon de definir un css grid video tp4 "grid complexe****"  */
+
+ body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+  "yel yel pur"
+  "re gre pur"
+  "re vio vio";
+}
+
+div:nth-child(1) {
+  background: yellow;
+  grid-area: yel;
+  margin:  10px;
+}
+div:nth-child(2) {
+  background: purple;
+  margin:  10px;
+  grid-area: pur;
+}
+div:nth-child(3) {
+  background: green;
+  margin:  10px;
+  grid-area: gre;
+}
+div:nth-child(4) {
+  background: red;
+  grid-area: re;
+  margin:  10px;
+}
+div:nth-child(5) {
+  background: orchid;
+  margin:  10px;
+  grid-area: vio;
+} 

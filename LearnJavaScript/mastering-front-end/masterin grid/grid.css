@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+* {
+  padding: 0;
+  margin: 5px;
+
+  font-family: "Inter", sans-serif;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+p {
+  font-size: 0.8rem;
+}
+body {
+  min-height: 100vh;
+  padding: 10px 20px;
+  background: rgb(29, 29, 29);
+  color: rgb(250, 250, 250);
+}
+nav {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 10px 20px;
+}
+nav ul {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  margin: 30px auto;
+}
+
+.header-left {
+  width: 90%;
+}
+h1 {
+  font-size: 5rem;
+}
+
+.header-left-container h3 {
+  color: #474dff;
+  font-size: 1.8rem;
+}
+
+.header-right {
+  width: 50%;
+}
+#modem {
+  width: 100%;
+}
+
+.infos {
+  background: rgb(10, 10, 10);
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 33% 66%;
+}
+
+.btn-container {
+  display: grid;
+}
+
+button {
+  display: block;
+  border: none;
+  background: #474dff;
+  color: white;
+  width: 150px;
+  padding: 10px 0;
+  border-radius: 10px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: 5px;
+}
+
+.infos-right {
+  width: 67%;
+}
+
+.investors {
+  display: grid;
+  align-items: center;
+  height: 80%;
+}
+.img-container {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  width: 100%;
+}
+
+.img-container img {
+  height: 60px;
+}
+
+/* **********************MEDIA QUERIES************************************* */
+
+@media screen and (max-width: 870px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  .header-left-container h3 {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 0.7rem;
+  }
+  .btn-container {
+    margin: 0 auto;
+  }
+  button {
+    margin: 5px auto;
+    
+  }
+  .header {
+    display: block;
+  }
+  .infos-left{
+    display: block;
+    text-align: center;
+  }
+  .img-container {
+    display: block;
+    grid-template-columns: 33% 33% 33%;
+    width: 100%;
+  }
+
+  .investors {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+  }
+
+  .infos {
+    background: rgb(10, 10, 10);
+    border-radius: 10px;
+    display: block;
+    grid-template-columns: 33% 66%;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .img-container {
+    width: 150%;
+  }
+  .infos-right {
+    width: 67%;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  nav {
+    grid-template-columns: 35% 65%;
+  }
+  nav ul {
+    font-size: 0.7rem;
+  }
+  .header {
+    display: block;
+  }
+  .infos {
+    display: block;
+    text-align: center;
+    justify-content: center;
+  }
+  .btn-container {
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+  }
+  .infos-right {
+    display: block;
+    justify-content: center;
+    text-align: center;
+  }
+  .img-container img {
+    height: 33px;
+  }
+}

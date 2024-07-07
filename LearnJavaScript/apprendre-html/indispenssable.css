@@ -1,0 +1,60 @@
+/* centré un élément horizontalement parfaitement 
+si l'element est en block */
+
+.titre {
+  text-align: center;
+}
+
+.boite {
+  margin: 0 auto;
+  display: block; /* si jamais il n'est pas en block de base (img, a, span,button) */
+}
+/*********************************************FLEX***********************/
+/* centrer un élément dans sa boite (enfant unique)  */
+.parent-d-1-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* répartir équitablement sur la meme ligne des éléments dans la page */
+.parent-de-plusieurs-enfants {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*******************************Grid***************************/
+
+/* répatir précisement des éléments dans la largeur avec des tailles différentes */
+
+.parents-de-3-elements {
+  display: grid;
+  grid-template-columns: 25% 55% 20%;
+}
+
+/**Créer des grilles complexes */
+
+.parents-des-elements {
+  display: grid;
+  grid-template-columns: 100px 1fr 1fr; /*3 colone de 100pixel*/
+  grid-template-rows: 1fr 1fr 300px; /* 3 lignes 300pixel */
+  grid-template-areas:
+    "header header header" /* le header se repartis sur 3 colone du haut*/
+    "sid main main" /* la side de repartira sur la colone du milieux et le main que sur le mileiux*/
+    "side footer footer";
+}
+
+.enfants1 {
+  grid-area: header;
+}
+/*******ABSOLUTE*************************/
+
+.parent {
+  position: relative; /* pour que l'enfant reste dans les frontière de sont parent*/
+}
+.enfants {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
